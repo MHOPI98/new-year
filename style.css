@@ -132,8 +132,99 @@ header {
 }
 
 .plans p {
-    color:  #737272;
+    color: #737272;
     text-align: center;
     font-size: 25px;
     font-weight: 500;
+}
+
+.clock-section {
+    margin: 120px 200px;
+}
+
+.clock {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 8px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url('../new-year/images/watch.png');
+    max-width: 285%;
+    padding: 60px 65px;
+}
+
+.clock-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+
+
+}
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.tfoot {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+
+.tfoot-content {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+
+}
+
+.tf-s {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.footer-col {
+    width: 50%;
+
+}
+
+.contact input {
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    width: 325px;
+    padding: 18px 35px;
+    background: #151414;
+    border-radius: 10px;
+    margin-top: 20px;
+
+
+}
+
+.btn-k{
+    border-radius: 5px;
+    background: #005FAC;
+    padding: 18px 35px;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    margin-top: 20px;
+
+
+}
+
+.social-icon a {
+    margin-right: 10px;
 }
